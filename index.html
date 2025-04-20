@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harshith Gade - Data Scientist and Machine Learning Engineer specializing in AI solutions and data analytics">
+    <meta name="keywords" content="data science, machine learning, AI, python, data engineering">
+    <title>Harshith Gade - Data Scientist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/enhanced-styles.css">
+    <!-- Add this in the <head> section if you don't already have Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Harshith<span>Gade</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="hero-content">
+            <h1>Hello, I'm Harshith Gade</h1>
+            <p><span id="typed"></span></p>
+            
+            <div class="hero-buttons">
+                <a href="Harshith_Data_Science (2).pdf" class="btn" target="_blank">Download Resume</a>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="mailto:harshithgade.28@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/har-shith-gade-98332735b/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/HARSHITH21" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Popup greeting -->
+<div id="greeting-popup" style="display:none;position:fixed;top:40px;left:50%;transform:translateX(-50%);background:#fff;color:#333;padding:18px 32px;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.15);z-index:2000;font-size:1.1rem;font-weight:500;transition:opacity 0.4s;">
+  <span id="personal-greeting"></span>
+</div>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I'm <strong>Harshith Gade</strong>, a Data Scientist with a Master's in Data Science from NJIT and experience in backend development, machine learning, and big data processing. Passionate about AI innovation, I'm currently working on 'Wealth Mentor', an AI-driven financial planning tool.
+        </p>
+      </div>
+      <div class="about-visual">
+        <div id="data-visualization"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <div class="container">
+    <h2>Technical Skills</h2>
+    
+    <div class="skill-categories">
+      <div class="skill-category">
+        <h3>Programming</h3>
+        <div class="skill-item">
+          <span>Python</span>
+          <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>SQL</span>
+          <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Java</span>
+          <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>R</span>
+          <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>C</span>
+          <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3>Machine Learning</h3>
+        <div class="skill-item">
+          <span>Scikit-learn</span>
+          <div class="progress-bar"><div class="progress" style="width: 92%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>TensorFlow</span>
+          <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>PyTorch</span>
+          <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>NLP</span>
+          <div class="progress-bar"><div class="progress" style="width: 82%"></div></div>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3>Data Engineering</h3>
+        <div class="skill-item">
+          <span>Snowflake</span>
+          <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>AWS</span>
+          <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Spark</span>
+          <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Airflow</span>
+          <div class="progress-bar"><div class="progress" style="width: 78%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="deep-learning">Deep Learning</button>
+      <button class="filter-btn" data-filter="predictive-analytics">Predictive Analytics</button>
+      <button class="filter-btn" data-filter="cloud-computing">Cloud & Big Data</button>
+      <button class="filter-btn" data-filter="nlp">NLP & Recommendation</button>
+    </div>
+    
+    <div class="project-grid">
+      <div class="project-card" data-category="deep-learning">
+        <h3>Plant Disease Classification using Deep Learning</h3>
+        <p>Built a MobileNetV2-based CNN model to classify plant diseases from leaf images, with deployment-ready architecture for mobile devices.</p>
+        <div class="project-tags">
+          <span>TensorFlow</span>
+          <span>CNN</span>
+          <span>MobileNet</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/plant-classification-deep-learning" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card" data-category="predictive-analytics">
+        <h3>Stock Price Prediction for BlackRock using ML</h3>
+        <p>Applied machine learning models to predict stock trends using historical price data and technical indicators, focusing on BlackRock's financial instruments.</p>
+        <div class="project-tags">
+          <span>Prediction</span>
+          <span>Time Series</span>
+          <span>Finance</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/Machine-Learning-Based-Stock-Prediction-for-BlackRock" target="_blank">View on GitHub</a>
+      </div>
+      
+      <div class="project-card" data-category="nlp">
+        <h3>Netflix Recommendation System using BERT</h3>
+        <p>Developed a hybrid recommendation engine combining BERT for content understanding and MLP for user preference learning to personalize streaming experiences.</p>
+        <div class="project-tags">
+          <span>BERT</span>
+          <span>NLP</span>
+          <span>Recommender Systems</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/netflix-recommendation-bert" target="_blank">View on GitHub</a>
+      </div>
+      
+      <div class="project-card" data-category="predictive-analytics">
+        <h3>Quality Prediction in Mining Process</h3>
+        <p>Predicted metal recovery using ensemble models on mining sensor data. Enhanced resource optimization in metallurgical plants.</p>
+        <div class="project-tags">
+          <span>Ensemble Learning</span>
+          <span>Sensor Data</span>
+          <span>Industrial ML</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/mining-quality-prediction" target="_blank">View on GitHub</a>
+      </div>
+      
+      <div class="project-card" data-category="cloud-computing">
+        <h3>AWS-Based Image Recognition Pipeline</h3>
+        <p>Designed a distributed image recognition system using AWS EC2, S3, SQS, and Rekognition. Focused on event-driven architecture and scalable cloud deployment.</p>
+        <div class="project-tags">
+          <span>AWS</span>
+          <span>Cloud</span>
+          <span>Computer Vision</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/aws-image-recognition" target="_blank">View on GitHub</a>
+      </div>
+      
+      <div class="project-card" data-category="predictive-analytics">
+        <h3>Wine Quality Prediction</h3>
+        <p>Built regression models using Scikit-learn to predict wine quality from physicochemical features, with EDA and model evaluation.</p>
+        <div class="project-tags">
+          <span>Regression</span>
+          <span>Scikit-learn</span>
+          <span>EDA</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/wine-quality-prediction" target="_blank">View on GitHub</a>
+      </div>
+      
+      <div class="project-card" data-category="cloud-computing">
+        <h3>Web Scraping with R</h3>
+        <p>Used R with rvest and tidyverse to extract and process structured web data for analysis and visualization.</p>
+        <div class="project-tags">
+          <span>R</span>
+          <span>Web Scraping</span>
+          <span>Data Processing</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/web-scraping-r" target="_blank">View on GitHub</a>
+      </div>
+      
+      <div class="project-card" data-category="cloud-computing">
+        <h3>Flight Data Analysis</h3>
+        <p>Analyzed airline data using MapReduce and Hadoop to explore patterns in delays, cancellations, and on-time performance.</p>
+        <div class="project-tags">
+          <span>Hadoop</span>
+          <span>MapReduce</span>
+          <span>Big Data</span>
+        </div>
+        <a href="https://github.com/HARSHITH21/flight-data-analysis" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="timeline" class="timeline">
+  <div class="container">
+    <h2>Experience & Education</h2>
+    
+    <div class="timeline-wrapper">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Master of Science in Data Science</h3>
+          <span class="date">2021 - 2023</span>
+          <p><strong>New Jersey Institute of Technology (NJIT), NJ, USA</strong></p>
+          <p>GPA: 3.7/4.0</p>
+          <p>Relevant Coursework: Advanced Machine Learning, Data Mining, Applied Statistics, Big Data, Data Analytics with R</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Programmer Analyst</h3>
+          <span class="date">Nov 2022 - Jul 2023</span>
+          <p><strong>Cognizant Technology Solutions India Pvt. Ltd.</strong></p>
+          <ul>
+            <li>Built and maintained middleware applications using Java and Spring Boot frameworks for enterprise-scale systems.</li>
+            <li>Developed and integrated RESTful APIs using Postman and Node.js to streamline communication between distributed systems.</li>
+            <li>Improved system scalability and performance through efficient algorithm implementation and code refactoring.</li>
+            <li>Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions on schedule.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Programmer Analyst Trainee Intern</h3>
+          <span class="date">Mar 2022 - Nov 2022</span>
+          <p><strong>Cognizant Technology Solutions India Pvt. Ltd.</strong></p>
+          <ul>
+            <li>Trained in Java, HTML, CSS, Spring Boot, and SQL with hands-on development exposure in a production environment.</li>
+            <li>Worked on a trading system project, showcasing algorithm design and middleware development using Java and Spring Boot.</li>
+            <li>Demonstrated rapid learning capabilities and contributed to key project deliverables within tight timelines.</li>
+            <li>Actively collaborated with peers and mentors, ensuring adherence to best practices and quality standards.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Bachelor of Technology in Electronics & Communication</h3>
+          <span class="date">2017 - 2021</span>
+          <p><strong>Geethanjali College of Engineering and Technology, India</strong></p>
+          <p>Activities: Robotics Club Lead, Hackathon Winner</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- First, let's add the scroll indicator at the top of the body -->
+<div class="scroll-indicator">
+  <div class="scroll-indicator-bar"></div>
+</div>
+
+<!-- Then fix the contact section to include all contact items -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Let's connect! I'm open to collaboration, freelance, or full-time opportunities.</p>
+    
+    <div class="contact-container">
+      <div class="contact-info">
+        <ul class="contact-list">
+          <li><span class="icon"><i class="fas fa-envelope"></i></span> Email: <a href="mailto:harshithgade.28@gmail.com">harshithgade.28@gmail.com</a></li>
+          <li><span class="icon"><i class="fab fa-linkedin"></i></span> LinkedIn: <a href="https://www.linkedin.com/in/har-shith-gade-98332735b/" target="_blank">linkedin.com/in/har-shith-gade</a></li>
+          <li><span class="icon"><i class="fab fa-github"></i></span> GitHub: <a href="https://github.com/HARSHITH21" target="_blank">github.com/HARSHITH21</a></li>
+          <li><span class="icon"><i class="fas fa-file-alt"></i></span> Resume: <a href="Harshith_Data_Science (2).pdf" target="_blank">Download Resume</a></li>
+        </ul>
+      </div>
+      
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Remove this entire section -->
+<!-- Add script at the end of body -->
+<!-- Load AI/ML libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
+<script type="module">
+    import { pipeline } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.6.1/+esm';
+    
+    // Initialize AI libraries
+    window.addEventListener('DOMContentLoaded', async function() {
+        try {
+            // Initialize TensorFlow
+            await tf.ready();
+            console.log('TensorFlow.js initialized successfully');
+            
+            // Make pipeline available globally
+            window.pipeline = pipeline;
+            console.log('Transformers.js initialized successfully');
+        } catch (e) {
+            console.error('Error initializing libraries:', e);
+        }
+    });
+</script>
+
+<!-- Keep only this section -->
+<!-- Load application scripts -->
+<script src="js/script.js"></script>
+
+<!-- Chat Widget -->
+<div class="chat-toggle-btn">
+    <i class="fas fa-comment"></i>
+</div>
+
+<div class="chat-widget">
+    <div class="chat-header">
+        <div class="chat-title">Chat with Harshith's Assistant</div>
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+    </div>
+    <div class="chat-body">
+        <div class="typing-indicator">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+        </div>
+    </div>
+    <div class="chat-input-container">
+        <input type="text" class="chat-input" placeholder="Ask me anything...">
+        <button class="chat-send-btn"><i class="fas fa-paper-plane"></i></button>
+    </div>
+</div>
+
+<script src="js/chatbot.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS('particles-js', {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#4361ee"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#4361ee",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 2,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "grab"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 140,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "push": {
+                    "particles_nb": 4
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed('#typed', {
+        strings: [
+            "Data Scientist | Machine Learning Engineer | AI Innovator",
+            "Python Developer | Data Engineer | ML Specialist",
+            "Transforming Data into Insights and Solutions"
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 2000,
+        loop: true
+    });
+</script>
+
+<script>
+    // Popup personalized greeting using only time-based wish and welcome message
+    window.addEventListener('DOMContentLoaded', function() {
+        const now = new Date();
+        const hour = now.getHours();
+        let timeGreeting = '';
+        if (hour < 12) timeGreeting = 'Good morning';
+        else if (hour < 18) timeGreeting = 'Good afternoon';
+        else timeGreeting = 'Good evening';
+        document.getElementById('personal-greeting').textContent = `${timeGreeting}! Welcome to my website 👋`;
+        showGreetingPopup();
+        function showGreetingPopup() {
+            const popup = document.getElementById('greeting-popup');
+            popup.style.display = 'block';
+            popup.style.opacity = '1';
+            setTimeout(() => {
+                popup.style.opacity = '0';
+                setTimeout(() => { popup.style.display = 'none'; }, 400);
+            }, 4500);
+        }
+    });
+</script>
+
+<script>
+    // Scroll reveal animation
+    window.addEventListener('scroll', revealOnScroll);
+    
+    function revealOnScroll() {
+        var reveals = document.querySelectorAll('.project-card, .experience-card, .education-card, .skill-category');
+        
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+            
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add('active');
+            }
+        }
+    }
+    
+    // Add reveal class to elements
+    document.addEventListener('DOMContentLoaded', function() {
+        var elements = document.querySelectorAll('.project-card, .experience-card, .education-card, .skill-category');
+        elements.forEach(function(element) {
+            element.classList.add('reveal');
+        });
+        
+        // Trigger scroll once to reveal elements in view on page load
+        revealOnScroll();
+    });
+</script>
+
+<!-- Load chatbot script after DOM is fully loaded -->
+<script src="js/script.js"></script>
+<script src="js/chatbot.js"></script>
+
+</body>
+</html>
