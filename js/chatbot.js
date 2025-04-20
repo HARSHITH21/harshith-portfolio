@@ -4,7 +4,7 @@ class PortfolioChatbot {
             skills: ['Python', 'Data Science', 'Machine Learning', 'Web Development', 'AWS'],
             projects: {
                 'stock-prediction': 'A machine learning model for predicting stock market trends',
-                'plant-disease': 'AI-powered plant disease detection system',
+                'plant-classification': 'AI-powered plant classification system using Deep Learning',
                 'netflix': 'Netflix data analysis and recommendation system',
                 'flight-data': 'Flight data analysis and prediction model',
                 'web-scraping': 'Web scraping and data analysis project',
