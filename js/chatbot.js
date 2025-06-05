@@ -1,14 +1,21 @@
 class PortfolioChatbot {
-    constructor() {
-        this.knowledge = {
-            skills: ['Python', 'Data Science', 'Machine Learning', 'Web Development', 'AWS'],
+    constructor() {        this.knowledge = {
+            skills: ['Python', 'Data Science', 'Machine Learning', 'AWS SageMaker', 'XGBoost', 'Random Forests', 'Apache Spark', 'Docker', 'Tableau', 'Power BI', 'spaCy', 'NLP', 'PySpark', 'GitHub Actions'],
             projects: {
                 'stock-prediction': 'A machine learning model for predicting stock market trends',
-                'plant-classification': 'AI-powered plant classification system using Deep Learning',
+                'plant-classification': 'A deep learning-based project for classifying plant species using CNN, ResNet50, and InceptionV3',
                 'netflix': 'Netflix data analysis and recommendation system',
                 'flight-data': 'Flight data analysis and prediction model',
                 'web-scraping': 'Web scraping and data analysis project',
                 'wine': 'Wine quality prediction using machine learning'
+            },
+            experience: {
+                'pnc': 'AI/ML Engineer at PNC (Mar 2024 - Present): Developing ML models for credit risk and fraud detection, automating ETL pipelines with Apache Spark, deploying models on AWS SageMaker',
+                'cognizant': 'AI/ML Engineer at Cognizant Technology Solutions (Jun 2021 - Jul 2023): Built NLP pipelines, developed ETL workflows with PySpark, implemented anomaly detection models'
+            },
+            education: {
+                'masters': 'Master of Science in Data Science from NJIT (Sep 2023 - Dec 2024), GPA: 3.7/4.0',
+                'bachelors': 'Bachelor of Technology in Electronics & Communication from Geethanjali College (2018 - 2022), Grade: 7.0/10'
             }
         };
         this.messageHistory = [];
